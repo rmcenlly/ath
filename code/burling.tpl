@@ -25,7 +25,7 @@
     <tbody>
 %for fifteen in fifteens:  
         <tr>
-            <form action='/burling/submit' method='post'>
+            <form action='/submit' method='post'>
             <input type="hidden" name="StudentID" value="{{fifteen[0]}}">
                 <td>{{fifteen[1]}}</td>
                 <td>{{fifteen[2]}}</td>
@@ -72,7 +72,7 @@
     <tbody>
 %for sixteen in sixteens:  
         <tr>
-            <form action='/burling/submit' method='post'>
+            <form action='/submit' method='post'>
             <input type="hidden" name="StudentID" value="{{sixteen[0]}}">
                 <td>{{sixteen[1]}}</td>
                 <td>{{sixteen[2]}}</td>
@@ -119,7 +119,7 @@
     <tbody>
 %for seventeen in seventeens:  
         <tr>
-            <form action='/burling/submit' method='post'>
+            <form action='/submit' method='post'>
             <input type="hidden" name="StudentID" value="{{seventeen[0]}}">
                 <td>{{seventeen[1]}}</td>
                 <td>{{seventeen[2]}}</td>
@@ -166,7 +166,7 @@
   <tbody>
 %for open in opens:
         <tr>
-            <form action='/burling/submit' method='post'>
+            <form action='/submit' method='post'>
             <input type="hidden" name="StudentID" value="{{open[0]}}">
                 <td>{{open[1]}}</td>
                 <td>{{open[2]}}</td>
